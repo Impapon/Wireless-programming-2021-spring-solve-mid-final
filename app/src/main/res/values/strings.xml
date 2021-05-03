@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Final Assesment</string>
+
+
+    <string name="login_form_title">Login</string>
+    <string name="name">Name</string>
+    <string name="login_form_password">Password</string>
+    <string name="login_form_login">LOGIN</string>
+    <string name="Id">182-15-11580</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

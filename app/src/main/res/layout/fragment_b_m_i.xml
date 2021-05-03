@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#4CAF50"
+    android:layout_height="match_parent"
+    tools:context=".BMI">
+
+
+    <TextView
+        android:id="@+id/myid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Id"
+        android:textColor="#000"
+        android:textSize="35dp" />
+
+    <EditText
+        android:id="@+id/weightid"
+        android:textStyle="bold"
+         android:hint="Entering your weight in kilograms "
+        android:layout_width="350dp"
+        android:textColor="#000"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/heightid"
+        android:textStyle="bold"
+        android:hint="Entering your height in meters"
+        android:layout_width="350dp"
+        android:textColor="#000"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    <Button
+        android:id="@+id/bmicalculationbutton"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Calculate"
+        ></Button>
+    <TextView
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:id="@+id/showresid"
+        android:layout_width="230dp"
+        android:layout_height="30dp"></TextView>
+
+</LinearLayout>

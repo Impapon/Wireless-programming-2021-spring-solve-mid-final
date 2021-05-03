@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#9C27B0"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/celsius"
+        android:hint="Entering the temperature in celsius"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/ctofbuttonid"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="Calculate">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/ctofconvertres"
+        android:layout_width="252dp"
+        android:layout_height="72dp"
+        android:gravity="center"
+        android:text="count value"
+        android:textColor="@color/black"
+        android:textSize="35dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/myvrstyid"
+        android:layout_width="256dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/Id"
+        android:textColor="@color/black"
+        android:textSize="35dp">
+
+    </TextView>
+
+</LinearLayout>
